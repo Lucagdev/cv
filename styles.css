@@ -1,0 +1,77 @@
+
+/* CSS INDEX */
+
+body {
+    background-color: rgb(208, 218, 218);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.name1 {
+    border: 1px solid rgb(208, 218, 218);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+
+h2 {
+    color: #000000;
+    border-style: none;
+    height: 50px;
+    width: 100%;
+    }
+
+h3 {
+    color: #000000;
+    }
+
+hr {
+    background-color: rgb(0, 137, 171);
+    border-style: none;
+    height: 1px;
+    width: 77%;
+    }
+
+/* CSS MY CONTACTS*/
+
+.euc {
+    position: relative;
+    margin-left: 45%;
+    }
+
+.contactsb {
+    background-color: rgb(208, 218, 218);
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    
+.ct {
+    position: relative;
+    align-content: center;
+    margin-left: 44%;
+    }
+
+hr {
+    background-color: olivedrab;
+    position: relative;
+    border-style: solid ;
+    height: 0px;
+    width: 80%;
+    }
+    
+.divform {
+  position: relative;  
+  align-content: center;  
+  margin-left: 45%;
+    }
+      
+.tdleft {
+    position: relative;
+    padding-left: 22px;
+}
+
+.teduc {
+    position: relative;
+    padding-left: 45%;
+}

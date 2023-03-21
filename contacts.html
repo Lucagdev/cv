@@ -2,14 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <title>My Contacts</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="contactsb">
     
+    <img class="euc" height=" 170em" src="eu.png">
+
 <hr>
 
 <ol>
     <ul>
-        <h3> <a href="https://api.whatsapp.com/send/?phone=31984885915&text&type=phone_number&app_absent=0">My Whatsapp</a> </h3>
+        <h3 class="ct"> <em> <a href="https://api.whatsapp.com/send/?phone=31984885915&text&type=phone_number&app_absent=0">My Whatsapp</a> </em> </h3>
     </ul>
 </ol>
 
@@ -17,7 +20,7 @@
 
 <ol>
     <ul>
-        <h3>  <a href="https://www.instagram.com/lucasgduartee/">My Instagram</a> </h3>
+        <h3 class="ct"> <em> <a href="https://www.instagram.com/lucasgduartee/">My Instagram</a> </em> </h3>
     </ul>
 </h3></ol>
 
@@ -25,7 +28,7 @@
 
 <ol>
     <ul>
-       <h3> <strong> </strong:> <a href="https://github.com/Lucagdev">My Github</a> </strong> </h3>
+        <h3 class="ct"> <em> <strong> </strong:> <a href="https://github.com/Lucagdev">My Github</a> </em> </strong> </h3>
     </ul>
 </ol>
 
@@ -33,22 +36,32 @@
 
 <ol>
     <ul>
-        <h3><a href="https://www.linkedin.com/in/lucas-gabriel-duarte-enis-888739228/">My Linkedin</a> </h3>
+        <h3 class="ct"> <em> <a href="https://www.linkedin.com/in/lucas-gabriel-duarte-enis-888739228/">My Linkedin</a> </em> </h3>
     </ul>
 </ol>
 
 <hr>
 
+<br>
+
+<div class="divform">
+<p><strong>Send me a message</p></strong>
 
 <form action="mailto:lucasgde@outlook.com" method="post" enctype="text/plain">
-<label> Your Name: </label>
-<input type="text" name="Your Name" value=""><br>
-<label>Your Email:</label>
-<input type="email" name="Your Email" value=""><br>
-<label>Your Message</label><br>
-<textarea name="Your Message" cols="30" rows="10"></textarea><br>
-<input type="submit" name="">
+<label> Your Name: </label> <br>
+<input placeholder="Type your name" type="text" name="Your Name" value="">
+<br>
+<label>Your Email:</label> <br>
+<input placeholder="Type your email" type="email" name="Your Email" value="">
+<br>
+<label>Your Message:</label>
+<br>
+<textarea name="Your Message" cols="21" rows="10"></textarea><br>
+<input type="submit" value="Submit">
 </form>
+
+</div>
+
 
 </body>
 </html>
